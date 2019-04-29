@@ -1,0 +1,14 @@
+/Desktop
+/Documents
+/Downloads
+/Music
+/Pictures
+/Videos
+/dev
+/Public
+/Templates
+/.cache
+/drivers
+
+.viminfo
+.bash_history
