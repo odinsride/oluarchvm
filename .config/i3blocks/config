@@ -1,3 +1,30 @@
 command=~/.scripts/statusbar/$BLOCK_NAME
 separator_block_width=15
 markup=pango
+
+[pacpackages]
+label=updates:
+interval=3600
+color=#7A9AFF
+
+[memory]
+interval=30
+label=memory:
+color=#6FACE8
+
+[disk]
+interval=60
+command=disk /home home
+color=#87E2FF
+
+[disk]
+interval=60
+command=disk / root
+color=#6FE8E4
+
+[iface]
+color=#7AFFD5
+interval=10
+
+[clock]
+interval=10

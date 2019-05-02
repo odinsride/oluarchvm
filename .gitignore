@@ -13,6 +13,8 @@
 /.mozilla
 /.gnupg
 /.local/share/xorg
+/.local/share/nvim
+
 
 .Xauthority
 .viminfo
