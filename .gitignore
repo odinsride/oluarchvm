@@ -9,6 +9,11 @@
 /Templates
 /.cache
 /drivers
+/Packages
+/.mozilla
+/.gnupg
+/.local/share/xorg
 
+.Xauthority
 .viminfo
 .bash_history
