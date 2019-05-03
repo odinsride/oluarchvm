@@ -1,3 +1,5 @@
 #!/bin/sh
 alias ls="ls -hN --color=auto --group-directories-first" \
 	grep="grep --color=auto"
+
+command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d" # Use neovim for vim if present
