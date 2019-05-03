@@ -15,6 +15,7 @@
 /.local/share/xorg
 /.local/share/nvim
 /.local/share/ranger
+/.ssh
 
 .Xauthority
 .viminfo
