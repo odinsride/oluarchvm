@@ -15,8 +15,14 @@
 /.local/share/xorg
 /.local/share/nvim
 /.local/share/ranger
-/.ssh
+/.local/share/zathura
+/.local/share/recently-used.xbel
 
+/.ssh
+/.config/dconf
+/.config/pulse
+
+.esd_auth
 .Xauthority
 .viminfo
 .bash_history

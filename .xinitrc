@@ -23,4 +23,7 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
+# set the wallpaper
+~/.config/fehbg &
+
 exec i3
