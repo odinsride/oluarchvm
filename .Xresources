@@ -38,9 +38,11 @@
 *.color15:      #f3f4f5
 
 ! Fonts
-URxvt.font: xft:Roboto Mono:size=11,style=regular
-URxvt.boldFont: xft:Roboto Mono:size=11,style=bold
-URxvt.letterSpace: -1
+URxvt.font: 		xft:Roboto Mono for Powerline:style=Regular:pixelsize=15:antialias=true:hinting=true
+URxvt.boldFont: 	xft:Roboto Mono for Powerline:bold:pixelsize=15:antialias=true:hinting=true
+URxvt.italicFont:	xft:Roboto Mono for Powerline:italic:pixelsize=15:antialias=true:hinting=true
+URxvt.boldItalicFont:	xft:Roboto Mono for Powerline:bold:italic:pixelsize=15:antialias=true:hinting=true
+URxvt.letterSpace: 0 
 
 
 !UI

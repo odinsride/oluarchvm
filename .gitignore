@@ -26,3 +26,7 @@
 .Xauthority
 .viminfo
 .bash_history
+.zcompdump*
+.lesshst
+.histfile
+
