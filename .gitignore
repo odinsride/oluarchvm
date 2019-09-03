@@ -1,3 +1,4 @@
+/Apps
 /Desktop
 /Documents
 /Downloads
@@ -21,6 +22,9 @@
 /.ssh
 /.config/dconf
 /.config/pulse
+/.config/htop
+/.parallel
+/.vim
 
 .esd_auth
 .Xauthority
