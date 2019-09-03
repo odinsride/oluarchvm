@@ -6,7 +6,7 @@
 # export TERMINAL="urxvt"
 
 # Basics
-set $mod Mod4
+set $mod Mod1
 for_window [class="^.*"] border pixel 2
 gaps inner 20
 gaps outer 15
@@ -15,7 +15,7 @@ font pango:DejaVu Sans Mono 8
 
 # Bar
 bar {
-	font xft:Roboto Bold 10 
+	font xft:Roboto Bold 11
 	status_command i3blocks
 	position top
 	mode dock
