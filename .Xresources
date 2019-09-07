@@ -58,6 +58,10 @@ URxvt*fading: 10
 URxvt.depth: 32
 URxvt.background: [85]#1c2023
 URxvt.intensityStyles: false
+!URxvt*transparent: true
+!URxvt*shading: 10
+!URxvt*tintColor: #000000
+!URxvt*blurRadius: 5
 
 !Keys
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard

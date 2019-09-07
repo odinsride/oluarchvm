@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-fill '/home/sitheris/.config/wall.png' 
+feh --no-fehbg --bg-fill '/home/sitheris/.config/wall.png' 

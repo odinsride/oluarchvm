@@ -8,8 +8,8 @@
 # Basics
 set $mod Mod1
 for_window [class="^.*"] border pixel 2
-gaps inner 20
-gaps outer 15
+gaps inner 15
+gaps outer 5
 set $term --no-startup-id $TERMINAL
 font pango:DejaVu Sans Mono 8
 
@@ -86,7 +86,7 @@ bindsym $mod+Shift+r 			restart
 bindsym $mod+Shift+e 			exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # gaps control
-bindsym $mod+Shift+t			gaps inner current set 15; gaps outer current set 15
+bindsym $mod+Shift+t			gaps inner current set 15; gaps outer current set 5
 bindsym $mod+s				gaps inner current plus 5
 bindsym $mod+Shift+s			gaps inner current minus 5
 
