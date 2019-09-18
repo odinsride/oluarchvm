@@ -5,6 +5,9 @@
 # export FILE="ranger"
 # export TERMINAL="urxvt"
 
+# Start dockd
+exec --no-startup-id dockd --daemon
+
 # Basics
 set $mod Mod1
 for_window [class="^.*"] border pixel 2

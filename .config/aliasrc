@@ -2,4 +2,6 @@
 alias ls="ls -hN --color=auto --group-directories-first" \
 	grep="grep --color=auto"
 
+alias mount-personal="sudo mount -t cifs //192.168.1.21/sitheris /mnt/sitheris -o username=sitheris,domain=home,uid=1000,gid=1000"
+
 command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d" # Use neovim for vim if present

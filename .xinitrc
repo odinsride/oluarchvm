@@ -23,6 +23,10 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
+if [ -f "$HOME/.xprofile" ]; then
+    . ~/.xprofile
+fi
+
 # set the wallpaper
 ~/.config/fehbg &
 
