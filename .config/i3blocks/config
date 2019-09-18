@@ -9,7 +9,7 @@ color=#7A9AFF
 
 [memory]
 interval=30
-label=memory:
+label=memory: 
 color=#6FACE8
 
 [disk]
@@ -24,11 +24,15 @@ color=#6FE8E4
 
 [iface]
 color=#7AFFD5
-interval=10
+interval=once
 
 [battery]
 command=battery BAT0
 interval=5
+
+[volume]
+interval=2
+signal=10
 
 [clock]
 interval=10
